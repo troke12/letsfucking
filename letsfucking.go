@@ -11,9 +11,6 @@ func main() {
 	w := a.NewWindow("Lets Fucking Gooo")
 	w.SetContent(widget.NewVBox(
 		widget.NewLabel("Lets Fucking Go"),
-		widget.NewButton("Quit", func() {
-			a.Quit()
-		}),
 	))
 
 	w.ShowAndRun()
